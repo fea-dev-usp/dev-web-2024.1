@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: brown;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    padding: 50px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.comidas{
+    padding: 20px;
+    background-color: brown;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    padding-top: 10px;
+    width: 500px;
+    height: 350px;
+    padding-bottom: 15px;
+}
