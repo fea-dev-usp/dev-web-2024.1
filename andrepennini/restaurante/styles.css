@@ -1,0 +1,106 @@
+body {
+    background-image: url(plano-de-fundo.avif);
+    font-family: "Gill Sans", sans-serif;
+    padding: 20px;
+}
+
+@keyframes aumentar {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    animation: aumentar 1s infinite alternate;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: peru;
+    border-radius: 15px;
+    border: 2px solid brown;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 130px;
+    border-radius: 500px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+h1, h2 {
+    font-family: cursive;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.comida {
+    text-align: left;
+    width: 75%;
+}
+
+.preco {
+text-align: right;
+width: 25%;
+}
+
+.divisao {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+.final {
+    font-size: 14px;
+}
+
+.descricao {
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
