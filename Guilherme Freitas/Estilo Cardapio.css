@@ -1,0 +1,118 @@
+:root {
+    --main_color: #1d1d1d;
+    --side_color1: #f8e608;
+    --side_color2: #c5b929;
+    --content_color: white;
+    --shadow_color: lightgrey;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    color: var(--content_color);
+}
+
+body {
+    background-color: var(--main_color);
+    width: 60%;
+    margin: 1rem auto;
+    border: 2rem outset var(--side_color1);
+}
+
+header {
+    margin: 2rem 2rem 1rem;
+    border: 0.8rem double var(--side_color2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-subtitulo {
+    text-align: center;
+    margin: auto;
+}
+
+.icone-principal {
+    width: 18%;
+    height: auto;
+    margin-left: auto 0;
+}
+
+.titulo-principal {
+    font-size: 4rem;
+    text-shadow: 3px 3px 4px var(--side_color2);
+}
+
+.aviso {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--side_color2);
+    text-shadow: 1px 1px 3px var(--side_color2);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linha {
+    border-right: 5px ridge var(--side_color1)
+}
+
+.metade {
+    flex: 1;
+    height: 97%;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 1rem;
+}
+
+.metade h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px var(--side_color2);
+    margin: 0;
+}
+
+
+ul {
+    margin: 5px;
+    padding: 5px;
+}
+
+li {
+    font-size: 2rem;
+    margin: 0px 8px 10px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.nome {
+    margin-right: 5px;
+}
+
+li img {
+    margin-right: .5rem;
+    height: 30px;
+}
+
+hr {
+    border: none;
+    margin: 0;
+    border-bottom: 5px dotted var(--side_color2);
+    flex-grow: 1;
+}
+
+.preço {
+    margin-left: .8rem;
+    font-style: italic;
+}
+
+.frase {
+    margin-left: .8rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
